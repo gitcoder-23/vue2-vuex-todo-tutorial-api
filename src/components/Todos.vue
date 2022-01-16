@@ -7,6 +7,7 @@
       <span> <span class="complete-box"></span> = Complete </span>
     </div>
     <div class="todos">
+      <!-- <pre>{{ allTodos }}</pre> -->
       <div
         @dblclick="onDblClick(todo)"
         :key="todo.id"
